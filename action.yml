@@ -12,7 +12,7 @@ inputs:
     description: The pull request review comment
   request-changes:
     description: Whether the review should request changes or be a simple comment
-    default: true
+    default: 'true'
     required: false
 runs:
   using: 'node20'
