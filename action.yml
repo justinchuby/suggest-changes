@@ -10,9 +10,10 @@ inputs:
     default: ${{ github.token }}
   comment:
     description: The pull request review comment
-  request_changes:
+  request-changes:
     description: Whether the review should request changes or be a simple comment
     default: true
+    required: false
 runs:
   using: 'node20'
   main: 'dist/index.js'
